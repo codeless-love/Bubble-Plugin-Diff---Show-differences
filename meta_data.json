@@ -1,0 +1,10 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "productivity"
+    },
+    "description": "Show the changes or differences between two texts. \n\nRemoved text will be hi-lighted in red with strikethrough.\nAdded text will be hi-lighted in green. \n\nThe element can be used/styled directly (it outputs the diff in the element itself) or it can be used to generate HTML which can be retrieved from the element's \"diff\" state and used elsewhere. ",
+    "image": "//meta-q.cdn.bubble.io/f1767888037742x160566094654865700/Codeless%20Love%20Plugin%20Logo.png",
+    "license": "open_source",
+    "name": "Diff - Show differences"
+}

@@ -1,0 +1,54 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Simple Diff",
+    "fields": {
+        "AAD": {
+            "caption": "Previous Text",
+            "default_val": "The \"old\" text to compare.",
+            "editor": "DynamicValue",
+            "name": "previous_text",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "Current Text",
+            "default_val": "The \"new\" text to compare.",
+            "editor": "DynamicValue",
+            "name": "current_text",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "has_reset_fn": true,
+    "icon": "ion-ios-photos-outline",
+    "platform_type": "web",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    },
+    "states": {
+        "AAF": {
+            "caption": "diff",
+            "doc": "Optionally get the diff result from this if desired. This is the same as what is displayed in the element.",
+            "initialization_code": {
+                "add_debugger": false,
+                "fn": "function(properties, context) {\n}"
+            },
+            "name": "diff",
+            "value": "text"
+        }
+    }
+}
